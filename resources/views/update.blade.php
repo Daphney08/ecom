@@ -29,7 +29,7 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Price</label>
-                        <input type="integer" class="form-control" name="price" value="{{ $data->price }}" required>
+                        <input type="number" class="form-control" name="price" value="{{ $data->price }}" required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Category</label>
@@ -48,7 +48,7 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Ratings</label>
-                        <input type="integer" class="form-control" name="ratings" value="{{ $data->ratings }}" required>
+                        <input type="number" class="form-control" name="ratings" value="{{ $data->ratings }}" required>
                     </div>
                     <div class="mb-3">
                         <button class="btn btn-success">Save</button>

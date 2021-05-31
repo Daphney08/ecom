@@ -32,11 +32,10 @@ class IndexController extends Controller
          * 
          * ->where(column_name, operator, string)
          */
-        $data = Products::all();
 
         if($this->request->has('price1')){
             $data = Products::where('price','>=', $this->request->price1)
-                            ->where('price','>=', $this->request->price2)
+                            ->where('price','>=', $this->request->price1)
                             ->get();
 
         }

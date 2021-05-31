@@ -35,7 +35,7 @@ class IndexController extends Controller
 
         if($this->request->has('price1')){
             $data = Products::where('price','>=', $this->request->price1)
-                            ->where('price','>=', $this->request->price1)
+                            ->where('price','<=', $this->request->price2)
                             ->get();
 
         }

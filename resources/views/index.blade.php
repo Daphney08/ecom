@@ -24,7 +24,7 @@
                 <form action="">
                     <input type="search" name="search" class="form-controls" required>
                     <input required type="radio" name="by" value="name"> Name
-
+                    <input required type="radio" name="by" value="price"> Price
                     <button>Search by Name</button>
                 </form>
                 <br>
